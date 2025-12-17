@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY") or "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"
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not OPENROUTER_API_KEY:
-    raise ValueError("Please set the OPENROUTER_API_KEY environment variable.")
+    raise ValueError("OPENROUTER_API_KEY environment variable is not set. Please set it in your .env file.")
 
 OPENROUTER_MODEL = "mistralai/mistral-7b-instruct:free"  # Public/free model on OpenRouter
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
