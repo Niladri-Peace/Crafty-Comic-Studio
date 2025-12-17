@@ -345,7 +345,7 @@ if st.button("🎨 Generate Comic", use_container_width=True, type="primary"):
                 # Create three columns with the middle one wider to center the image
                 col1, col2, col3 = st.columns([1, 2, 1])
                 with col2:
-                    st.image(output_image_path, width=600, caption="Your Generated Comic Strip")
+                    st.image(output_image_path, width=400, caption="Your Generated Comic Strip")
                     
                 st.markdown('<div style="height: 1rem;"></div>', unsafe_allow_html=True)
                 st.success("🎉 Comic generated successfully!")
