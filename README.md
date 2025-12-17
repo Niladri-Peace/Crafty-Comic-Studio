@@ -51,12 +51,14 @@ It follows the following pipeline:
 
 ---
 
-##  **Tech Stack**
-- **Programming Language:** Python  
-- **Framework:** Streamlit  
-- **APIs:**  
-  - **OpenRouter** → For text/panel generation.  
-  - **ClipDrop (by Stability AI)** → For image generation.  
+## 🛠️ Tech Stack
+
+- <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&style=flat-square"/> **Python 3.8+**  
+- <img src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=flat-square"/> **Streamlit**  
+- <img src="https://img.shields.io/badge/OpenRouter-API-green?style=flat-square"/> **OpenRouter API** (for text/panel generation)  
+- <img src="https://img.shields.io/badge/ClipDrop-API-blueviolet?style=flat-square"/> **ClipDrop API** (for image generation)  
+- <img src="https://img.shields.io/badge/Markdown-Documentation-lightgrey?style=flat-square"/> **Markdown** (for docs)  
+- <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square"/> **MIT License**
 
 ---
 
