@@ -138,13 +138,6 @@ Feel free to experiment and create your own comics!
 
 ---
 
-## Contributors  
-- [Kashish Gupta](https://github.com/Kashish415)
-- [Sunaina](https://github.com/Sunaina792)
-- [Kuldeep](https://github.com/kuldeep-khator)
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
